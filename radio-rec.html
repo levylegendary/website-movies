@@ -1,0 +1,293 @@
+<!doctype html><html lang=""><head>
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.9">
+    <!-- End of generator meta tag -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+    
+    <script type="text/javascript" src="js/front-end.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/front-end.css">
+
+    
+    <script type="text/javascript" class="silex-script"></script>
+    
+    <title> - Radio Rec</title>
+    
+
+    
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="hostingProvider" content="ghpages"><link href="css/styles.css" rel="stylesheet" type="text/css"><h1 style="text-align:center"> Movie Recommendation Site:</h1><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
+
+<body class="body-initial all-style enable-mobile silex-runtime silex-published" data-silex-type="container">
+    <div class="silex-pages">
+        
+
+        <a id="page-home" data-silex-type="page" class="page-element" href="index.html">Home</a><a id="page-radio-rec" href="radio-rec.html" data-silex-type="page" class="page-element page-link-active">Radio Rec</a><a id="page-list-of-movies-" href="list-of-movies-.html" data-silex-type="page" class="page-element">List of movies </a></div>
+
+
+
+
+
+
+
+
+
+    
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1474394621033-3 section-element" style="">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1474394621032-2 silex-container-content container-element prevent-draggable website-width"><div data-silex-type="text" class="editable-style silex-id-1559921960522-6 text-element silex-component silex-component-hamburger prevent-resizable"><div class="silex-element-content normal"><style>.hamburger-menu_1559926543502_577 {position: absolute;}.silex-editor .hamburger-menu_1559926543502_577 nav {left: -9999px;}.hamburger-menu_1559926543502_577 nav ul {margin-top: 80px;}.hamburger-menu_1559926543502_577 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1559926543502_577.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1559926543502_577 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1559926543502_577.open .nav-container {}.hamburger-menu_1559926543502_577 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1559926543502_577 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+      opacity 0.1s ease-in,
+      transform 0.1s ease-in,
+      background 0.1s ease-in;}.hamburger-menu_1559926543502_577.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1559926543502_577 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1559926543502_577.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1559926543502_577.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1559926543502_577 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1559926543502_577.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+<!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
+<div class="hamburger-menu_1559926543502_577 closed">
+    <div class="hamburger-btn ">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-container">
+      <div class="prevent-scale">
+        <nav role="navigation" class="">
+            <ul>
+            
+                <li><a href="index.html" title="Home Page">Home Page</a></li>
+            
+                <li><a href="radio-rec.html" title="Radio Rec" class="page-link-active">Radio Recommendation </a></li>
+            
+                <li><a href="list-of-movies-.html" title="Movie list " class="">List of movies </a></li>
+            
+            </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+<script>
+(function() {
+  var isOpen = false;
+  function close() {
+    isOpen = false;
+    $('.hamburger-menu_1559926543502_577').removeClass('open');
+    $('.hamburger-menu_1559926543502_577').addClass('closed');
+  }
+  function open() {
+    isOpen = true;
+    $('.hamburger-menu_1559926543502_577').addClass('open');
+    $('.hamburger-menu_1559926543502_577').removeClass('closed');
+  }
+  function toggle() {
+    if(isOpen) close();
+    else open();
+  }
+  var silexElement = $('.hamburger-menu_1559926543502_577').closest('.editable-style');
+  function move(data) {
+    var offset = silexElement.offset();
+    $('.hamburger-menu_1559926543502_577 .nav-container').css({
+      'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
+    });
+  }
+  $('.hamburger-menu_1559926543502_577 .hamburger-btn').click(function() { toggle(); });
+  $(document).on('silex.scroll silex.resize', function(e, data) {
+    close();
+    move(data);
+  });
+  close();
+})();
+</script>
+</div></div><div data-silex-type="html" class="editable-style silex-id-1559925895726-3 html-element page-radio-rec paged-element page-link-active"><div class="silex-element-content">
+
+
+	<title></title>
+	
+
+
+<style type="text/css">#buttons {text-align: center; background-color: black; border-radius: 15px 15px; color: white;}</style>
+
+
+
+
+	<div id="buttons">
+	Dramas:<input type="radio" id="drama" name="moviesgenres" value="dramas" checked="">
+
+	Comedy:<input type="radio" id="comedy" name="moviesgenres" value="comedy">
+
+	Horror:<input type="radio" id="horror" name="moviesgenres" value="horror">
+
+	Action:<input type="radio" id="action" name="moviesgenres" value="action">
+
+	Adventure:<input type="radio" id="adventure" name="moviesgenres" value="adventure">
+
+	All Movies:<input type="radio" id="movie" name="moviesgenres" value="movies">
+
+	<p id="demo"></p>
+	<p id="selection"></p>
+	<input type="button" name="" onclick="myFunction()" value="submit">
+		<input type="button" onclick="myFunc()" value="Reset">
+</div>
+
+
+	
+
+
+	<script type="text/javascript">
+		function myFunc(){
+
+			  document.getElementById('demo').innerHTML=" ";
+			  document.getElementById('selection').innerHTML=" ";
+
+		}
+
+		function myFunction(){
+		
+		var dramas = drama;
+		var comedys = comedy;
+		var horrors = horror;
+		var actions = action;
+		var adventures = adventure;
+		var movies = movie;
+		var moviegenres;
+
+		var comedys = ["Shaun Of The Dead (2004)", 
+			"Anchorman (2004)", 
+			"Superbad (2007)", 
+			"Monty Python and the Holy Grail (1975)",
+			"The Hangover (2009)",
+			"Ghostbusters (1984)",
+			"40 Year Old Virgin (2013)",
+			"The Big Lebowski (1998)",
+			"Dumb and Dumber (1994)",
+			"Animal House (1978)"];
+
+		var dramas = ["Count of Monte Cristo (2002)", "Ragging Bull (1980)",
+			 "Nightcrawler(2014)",
+			 "City Of God (2002)",
+			 "The Godfather(1972)",
+			 "The Shawshank Redemption (1994)",
+			 "Good Will Hunting (1997)",
+			 "Gladiator (2000)",
+			 "The Departed (2006)",
+			 "Casablanca (1942)"];
+		var horrors = ["The Cabin In The Woods (2011)","Scream (1996)",
+			"Halloween (1978)",
+			"It (2017)",
+			"The Shining (1989)",
+			"Get Out (2017)",
+			"Psycho (1960)",
+			"A Nightmare on Elm Street (1984)",
+			"The Texas Chain Saw Massacre (1974)",
+			"The Blair WItch Project (1999)"];
+
+		var actions = ["Die Hard (1988)",
+		"The Dark Knight (2008)",
+		"John Wick (2014)",
+		"Mad Max Fury Road (2015)",
+		"Terminator 2 Judgment Day (1991)",
+		"The Matrix (1999)",
+		"Avengers End Game (2019)",
+		"The Bourne Ultimatum (2007)",
+		"Aliens (1986)",
+		"Taken (2008)",]
+
+		var adventures =["Raiders of the Lost Ark (1981)",
+		"The Avengers (2012)",
+		"Jurrasic Park (1993)",
+		"The Goonies (1985)",
+		"The Mummy (1999)",
+		"Pirates of the Caribbean (2003)",
+		"Iron Man (2008)",
+		"Back to the Future (1985)",
+		"Star Wars A New Hope (1977)",
+		"Up (2009)",]
+
+		var movies = comedys.concat(dramas,horrors,actions,adventures);
+
+
+		console.log(movies)
+		for (var i = 0; i < dramas.length; i++) {    // length is going by  //
+			if (drama.checked) {
+				document.getElementById('demo').innerHTML += dramas[i] + "<br>";
+				moviesgenres = drama.value                  // these two lines will add the genre value under the movies//
+				document.getElementById('selection').innerHTML=moviesgenres;
+				document.getElementById('demo').style.color='white';
+				document.getElementById('demo').style.background='blue';
+				document.getElementById('demo').style.borderRadius='50px';
+
+
+			} //if //
+			}
+			for (var i = 0; i < comedys.length; i++) {
+			 if  (comedy.checked) {
+				document.getElementById('demo').innerHTML += comedys[i] + "<br>";
+				moviesgenres = comedy.value
+				document.getElementById('selection').innerHTML=moviesgenres;
+				document.getElementById('demo').style.background='red';
+				document.getElementById('demo').style.color='white';
+				document.getElementById('demo').style.borderRadius='50px';
+
+
+				
+			}
+			} //else if //
+
+			for (var i = 0; i < horrors.length; i++) {
+
+			if (horror.checked) {
+				document.getElementById('demo').innerHTML += horrors[i] + "<br>";
+				document.getElementById('demo').style.background = "black";
+				document.getElementById('demo').style.color="white";
+				document.getElementById('demo').style.borderRadius = "50px";
+
+			} 
+			} 
+			for (var i = 0; i < actions.length; i++) {
+
+			if (action.checked) {
+				document.getElementById('demo').innerHTML += actions[i] + "<br>";
+				document.getElementById('demo').style.background = "orange";
+				document.getElementById('demo').style.color="white";
+				document.getElementById('demo').style.borderRadius = "50px";
+			}	
+			}
+			for (var i = 0; i < adventures.length; i++) {
+
+			if (adventure.checked) {
+				document.getElementById('demo').innerHTML += adventures[i] + "<br>";
+				document.getElementById('demo').style.background = "green";
+				document.getElementById('demo').style.color="white";
+				document.getElementById('demo').style.borderRadius = "50px";
+			}
+			}
+			for (var i = 0; i < movies.length; i++) {
+
+			if (movie.checked) {
+				document.getElementById('demo').innerHTML += movies[i] + "<br>";
+				document.getElementById('demo').style.background = "purple";
+				document.getElementById('demo').style.color="white";
+				document.getElementById('demo').style.borderRadius = "50px";
+			}
+			}
+			}
+	</script>
+
+
+</div></div></div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

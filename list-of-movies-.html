@@ -1,0 +1,222 @@
+<!doctype html><html lang=""><head>
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.9">
+    <!-- End of generator meta tag -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+    
+    <script type="text/javascript" src="js/front-end.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/front-end.css">
+
+    
+    <script type="text/javascript" class="silex-script"></script>
+    
+    <title> - List of movies </title>
+    
+
+    
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="hostingProvider" content="ghpages"><link href="css/styles.css" rel="stylesheet" type="text/css"><h1 style="text-align:center"> Movie Recommendation Site:</h1><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
+
+<body class="body-initial all-style enable-mobile silex-runtime silex-published" data-silex-type="container">
+    <div class="silex-pages">
+        
+
+        <a id="page-home" data-silex-type="page" class="page-element" href="index.html">Home</a><a id="page-radio-rec" href="radio-rec.html" data-silex-type="page" class="page-element">Radio Rec</a><a id="page-list-of-movies-" href="list-of-movies-.html" data-silex-type="page" class="page-element page-link-active">List of movies </a></div>
+
+
+
+
+
+
+
+
+
+    
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1474394621033-3 section-element" style="">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1474394621032-2 silex-container-content container-element prevent-draggable website-width"><div data-silex-type="text" class="editable-style silex-id-1559921960522-6 text-element silex-component silex-component-hamburger prevent-resizable"><div class="silex-element-content normal"><style>.hamburger-menu_1559926543502_577 {position: absolute;}.silex-editor .hamburger-menu_1559926543502_577 nav {left: -9999px;}.hamburger-menu_1559926543502_577 nav ul {margin-top: 80px;}.hamburger-menu_1559926543502_577 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1559926543502_577.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1559926543502_577 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1559926543502_577.open .nav-container {}.hamburger-menu_1559926543502_577 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1559926543502_577 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+      opacity 0.1s ease-in,
+      transform 0.1s ease-in,
+      background 0.1s ease-in;}.hamburger-menu_1559926543502_577.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1559926543502_577 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1559926543502_577.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1559926543502_577.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1559926543502_577 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1559926543502_577.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+<!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
+<div class="hamburger-menu_1559926543502_577 closed">
+    <div class="hamburger-btn ">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-container">
+      <div class="prevent-scale">
+        <nav role="navigation" class="">
+            <ul>
+            
+                <li><a href="index.html" title="Home Page">Home Page</a></li>
+            
+                <li><a href="radio-rec.html" title="Radio Rec" class="">Radio Recommendation </a></li>
+            
+                <li><a href="list-of-movies-.html" title="Movie list " class="page-link-active">List of movies </a></li>
+            
+            </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+<script>
+(function() {
+  var isOpen = false;
+  function close() {
+    isOpen = false;
+    $('.hamburger-menu_1559926543502_577').removeClass('open');
+    $('.hamburger-menu_1559926543502_577').addClass('closed');
+  }
+  function open() {
+    isOpen = true;
+    $('.hamburger-menu_1559926543502_577').addClass('open');
+    $('.hamburger-menu_1559926543502_577').removeClass('closed');
+  }
+  function toggle() {
+    if(isOpen) close();
+    else open();
+  }
+  var silexElement = $('.hamburger-menu_1559926543502_577').closest('.editable-style');
+  function move(data) {
+    var offset = silexElement.offset();
+    $('.hamburger-menu_1559926543502_577 .nav-container').css({
+      'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
+    });
+  }
+  $('.hamburger-menu_1559926543502_577 .hamburger-btn').click(function() { toggle(); });
+  $(document).on('silex.scroll silex.resize', function(e, data) {
+    close();
+    move(data);
+  });
+  close();
+})();
+</script>
+</div></div><div data-silex-type="html" class="editable-style silex-id-1559926474324-5 html-element page-list-of-movies- paged-element page-link-active"><div class="silex-element-content">
+
+
+<h1>What movie do you want to watch? </h1>
+<p class="hidden">Idiocracy (2006)
+</p><p class="hidden">The Boondock Saints (1999)</p>
+<p class="hidden">Get Him to the Greek (2010)</p>
+<p class="hidden">Scott Pilgrim vs. the World (2010)</p>
+<p class="hidden">One Flew Over the Cuckoo's Nest (1975)</p>
+<p class="hidden">Juice (1992) </p>
+<p class="hidden">Waiting... (I) (2005)</p>
+<p class="hidden">A Scanner Darkly (2006)</p>
+<p class="hidden">The Silence of the Lambs (1991)</p>
+<p class="hidden"> Mike Tyson: Undisputed Truth (2013 TV Special)</p>
+<p class="hidden">Cloud Atlas (2012)</p>
+<p class="hidden">The Fog of War: Eleven Lessons from the Life of Robert S. McNamara (2003)</p>
+<p class="hidden">The Fifth Element (1997)</p>
+<p class="hidden">The Matrix (1999)</p>
+<p class="hidden"> Guardians of the Galaxy (2014)</p>
+<p class="hidden"> Natural Born Killers (1994)</p>
+<p class="hidden">The Lion King (1994) </p>
+<p class="hidden">Philadelphia (1993)</p>
+<p class="hidden">The Count of Monte Cristo (2002)</p>
+<p class="hidden">The 40 Year Old Virgin (2005)</p>
+<p class="hidden">Blow (2001)</p>
+<p class="hidden">Dazed and Confused (1993) </p>
+<p class="hidden">Raging bull (1980)</p>
+<p class="hidden">Kiss Kiss Bang Bang (2005)</p>
+<p class="hidden">The Bourne Identity (2002)</p>
+<p class="hidden">American history X (1998)</p>
+<p class="hidden">Face/Off (1997)</p>
+<p class="hidden">Toy Story 3 (2010)</p>
+<p class="hidden">In Too Deep (1999)</p>
+<p class="hidden">Kiss Kiss (Bang Bang) (2001)</p>
+<p class="hidden">The Big Lebowski (1998)</p>
+<p class="hidden">Paycheck (2003)</p>
+<p class="hidden">The Dark Knight Rises (2012)</p>
+<p class="hidden">Baraka (1992)</p>
+<p class="hidden">Role Models (2008)</p>
+<p class="hidden">The Crying Game (1992)</p>
+<p class="hidden">Léon: The Professional (1994)  </p>
+<p class="hidden">Limitless (I) (2011)</p>
+<p class="hidden">The Basketball Diaries (1995) </p>
+<p class="hidden">Pitch Perfect (2012)</p> 
+<p class="hidden">Horrible Bosses (2011)</p>
+<p class="hidden">Superbad (2007)</p>
+<p class="hidden">Snatch (2000)</p>
+<p class="hidden">Kids (1995)</p>
+<p class="hidden">Citizen Kane (1941)</p>
+<p class="hidden">Paid In Full (2002)</p>
+<p class="hidden">Clerks (1994)</p>
+<p class="hidden">Wolf of Wall Street (2013)</p>
+<p class="hidden">The Interrupters (2011)</p>
+<p class="hidden">Trainspotting (1996)</p>
+<p class="hidden">Pulp Fiction (1994)</p>
+<p class="hidden">Harmontown(2014)</p>
+<p class="hidden">Lock,Stock,And Two Smoking Barrels(1998)</p>
+<p class="hidden">Dogma (1999(</p>
+<p class="hidden">Requiem For a dream (2000)</p>
+<p class="hidden">City Of God (2002)</p>
+<p class="hidden">Ave Ventura Pet Detective (1994)</p>
+<p class="hidden">Scent of a woman (1992)</p>
+<p class="hidden">Hotel Rwanda (2004)</p>
+<p class="hidden">Homeward Bound: The Incredible Journey (1993)</p>
+<p class="hidden">Eternal Sunshine of the spotless mind (2004) </p>
+<p class="hidden">The Bourne Ultimatum (2007) </p>
+<p class="hidden">The Taking of Pelham 123 (2009)</p>
+<p class="hidden">Back to the Future (1985)</p>
+<p class="hidden"> Killing Them Softly (2012)</p>
+<p class="hidden">Rudy (1993)</p>
+<p class="hidden">The Spectacular Now (2013)</p>
+<p class="hidden">Back to the Future (1985)</p>
+<p class="hidden"> Logan (2017)</p>
+<p class="hidden">50/50 (2011)</p>
+<p class="hidden">Death Proof (2007)</p>
+<p class="hidden">	Mallrats (1995) </p>
+<p class="hidden">Psycho (1960)</p>
+ <p class="hidden">Catfish (2010)</p>
+<p class="hidden">Citizenfour (2014)</p>
+<p class="hidden">Eyes Wide Shut (1999)</p>
+<p class="hidden"> Enemy of the State (1998)</p>
+<p class="hidden">The Sixties (2014)</p>
+<p class="hidden">500 Days of Summer (2009)</p>
+ <p class="hidden"> Alien (1979)</p>
+<p class="hidden">Sixteen Candles (1984)</p>
+<p class="hidden">Annie Hall (1977)</p>
+<p class="hidden">Rocky (1976)</p>
+<p class="hidden">The Bourne Supremacy (2004)</p>
+<p class="hidden">Garden State (2004)</p>
+<p class="hidden">The Zookeeper's Wife (2017)</p>
+<p class="hidden">Knocked Up (2007)</p>
+<p class="hidden">Ted (2012)</p>
+<p class="hidden">Teenage Mutant Ninja Turtles (1990)</p>
+<p class="hidden">The Revenant (2015)</p>
+<p class="hidden">RoboCop (1987)</p>
+<p class="hidden">Freakonomics (2010)</p>
+<p class="hidden">Richard Pryor: Omit the Logic (2013)</p>
+<p class="hidden">Only the Brave (2017)</p>
+<p class="hidden"> Nick of Time (1995)</p>
+<p class="hidden">Red State (2011)</p>
+<p class="hidden">Jackie Brown (1997)</p>
+<p class="hidden">Manic (2001)</p>
+<p class="hidden">Monty Python and the Holy Grail (1975)</p>
+ <p class="hidden">Stand by Me (1986)</p>
+<p class="hidden">Unstoppable (2010)</p>
+<p class="hidden">Deadpool (2016)</p></div></div></div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
