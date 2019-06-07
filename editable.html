@@ -282,23 +282,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script>
     $(document).ready(function(){
-  $(".hidden").click(function(){ //can replace with .on ('click', function) also
+  $(".hidden").click(function(){ 
     $(this).hide();
   });
 });
 
 $(document).ready(function(){
-  $(".hidden").hover(function(){ //can replace with .on ('click', function) also
+  $(".hidden").hover(function(){
     $(this).css("background-color", "orange");
   });
-   $(".hidden").mouseleave(function(){ //can replace with .on ('click', function) also
+   $(".hidden").mouseleave(function(){ 
     $(this).css({"background-color": "green", "color": "white"});
 });
 
 });
 </script>
-
- <link rel="stylesheet" type="text/css" href="CSS/styled.css"> 
 
 	
 <style type="text/css">p {text-align: center;}p:nth-of-type(even) {background: yellow;}</style>
