@@ -274,6 +274,23 @@
 
 
 </div></div><div data-silex-type="html" class="editable-style silex-id-1559926280110-4 html-element page-list-of-movies- paged-element" data-silex-id="silex-id-1559926280110-4"><div class="silex-element-content"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+  $(".hidden").click(function(){ //can replace with .on ('click', function) also
+    $(this).hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".hidden").hover(function(){ //can replace with .on ('click', function) also
+    $(this).css("background-color", "orange");
+  });
+   $(".hidden").mouseleave(function(){ //can replace with .on ('click', function) also
+    $(this).css({"background-color": "green", "color": "white"});
+});
+
+});
+</script>
 
 
 <h1>What movie do you want to watch? Double click to delete movie</h1>
